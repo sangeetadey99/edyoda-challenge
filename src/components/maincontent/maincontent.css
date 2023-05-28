@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.edyoda-content {
+  width: 100vw;
+  height: 90vh;
+  /* background: #172746; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../resources/background/background.png');
+  background-repeat: no-repeat;
+}
+.edyoda-content-container {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.edyoda-content-mainlockup {
+  width: 100%;
+  height: 100%;
+  transform: translateX(-7%);
+  transform: translateY(-7%);
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+  .edyoda-content-mainlockup {
+    transform: scale(1.2);
+  }
+}
+@media screen and (max-width: 1750px) {
+  /* insert styles here */
+  .edyoda-content-mainlockup {
+    transform: scale(1.2) ;
+  }
+}
+@media screen and (max-width: 1600px) {
+  /* insert styles here */
+  .edyoda-content-mainlockup {
+    transform: translateY(-10%);
+  }
+}
+/* (1280x1024) SXGA Display */
+@media screen and (max-width: 1280px) {
+  /* insert styles here */
+  .edyoda-content-mainlockup {
+    transform: scale(0.6);
+  }
+}
+@media screen and (max-width: 1380px) {
+  /* insert styles here */
+  .edyoda-content-mainlockup {
+    transform: scale(0.95);
+    transform: translateY(-4.2em);
+    transform: translateX(-3.2em);
+  }
+}

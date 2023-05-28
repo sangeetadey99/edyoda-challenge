@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.edyoda-logo {
+  display: flex;
+  align-items: center;
+  width: 158px;
+  height: 45px;
+}
+
+.edyoda-logo > svg {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.edyoda-navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  width: 89%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edyoda-navbar-left-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+
+  width: 492px;
+  height: 45px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.edyoda-navbar-dropdown-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.edyoda-navbar-dropdown-container>p{
+  margin-right:15%;
+
+}
+.edyoda-navbar-right-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+  width: 364px;
+  height: 40px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.edyoda-join-now-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 42px;
+  gap: 10px;
+  width: 166px;
+  height: 40px;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  border-radius: 52px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.edyoda-log-in {
+  width: 46px;
+  height: 19px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
